@@ -19,4 +19,13 @@ reactの使い方はjsxファイルで、alt+ctl+b！！
 
 # componentの作成
 以下のコマンドで、作成ができる  
-`rails generate react:component "Component名"`
+`rails generate react:component "Component名"`  
+このコマンドを打ち込むことで
+`app/assets/javascripts/components/"Componet名".js.jsx`  
+というファイルが作られる。  
+このファイルが、Componetを表すクラスファイルである。
+
+# Componentの利用法
+viewファイルで  
+`<%= react_component"Component名" %>`  
+を使用することで呼び出しが可能。

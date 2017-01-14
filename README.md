@@ -29,3 +29,13 @@ reactの使い方はjsxファイルで、alt+ctl+b！！
 viewファイルで  
 `<%= react_component"Component名" %>`  
 を使用することで呼び出しが可能。
+
+# 値の受け渡し
+propsを利用する。  
+使い方は、  
+`this.props.XXX`  
+XXXには自分で決めた属性が入る.  
+これを使うことで、親componentなどの外部の値を子が使用することができる。  
+propsの値は不変であることが原則。  
+値を変えるためには、stateを使う。  
+基本、親はstate、子はpropsと言うかたちになる、

@@ -61,7 +61,7 @@ var CommentBox = React.createClass({
     }
 });
 // 子コンポーネントの利用
-// 構造が、authorとchildrenである。
+// <Componemt>xxx</Component>の時、xxxはchildrenで参照が可能
 // この関数では、data属性のcommentを引数として受け取っている。
 // その引数の値をそのまま、子に渡している
 var CommentList = React.createClass({
